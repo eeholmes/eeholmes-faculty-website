@@ -39,4 +39,5 @@ output:
     self_contained: no
     include:
       in_header: header.html
+      after_body: footer.html
 
