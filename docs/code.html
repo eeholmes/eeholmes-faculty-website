@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Code</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+
+.section h2 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h3 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h4 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h5 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h6 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">EEHolmes</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="files/Holmes_CV.pdf">CV</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="talks.html">Talks</a>
+</li>
+<li>
+  <a href="code.html">Code</a>
+</li>
+<li>
+  <a href="https://eeholmes.github.io/open-notebook/">Notebook</a>
+</li>
+<li>
+  <a href="colleagues.html">Colleagues</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://nwfsc-timeseries.github.io/">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/RVerse-Tutorials">
+    <span class="fa fa-wrench"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/fish-forecast">
+    <span class="fa fa-line-chart"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/eeholmes">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Code</h1>
+
+</div>
+
+
+<p>Looking for R packages for multivariate time-series analysis (<a href="https://nwfsc-timeseries.github.io/MARSS/">MARSS</a>, atsar, …)? Head to our <a href="https://nwfsc-timeseries.github.io/">NWFSC Time Series</a> page. Packages, course webpage and Applied Time-Series Analysis book is there.</p>
+<p>Looking for the “Fish Forecast” webpage? Fish Forecast <a href="https://fish-forecast.github.io/Fish-Forecast-Webpage/">webpage and course lectures</a>, <a href="https://fish-forecast.github.io/Fish-Forecast-Bookdown/">online book</a>, <a href="https://github.com/fish-forecast">GitHub</a></p>
+<p>Looking for the “RVerse Tutorials” material? RVerse Tutorials <a href="https://rverse-tutorials.github.io/RWorkflow-Workshop/">course webpage</a>, <a href="https://github.com/RVerse-Tutorials">GitHub</a></p>
+<p>Other random stuff is on my <a href="https://github.com/eeholmes">GitHub</a> page. However, if you are looking for time-series analysis or hierarchical modeling code, then you should look at my <a href="https://eeholmes.github.io/colleagues/">colleagues</a>’ GitHub repositories and project pages.</p>
+<div id="other-code" class="section level2">
+<h2>Other code</h2>
+<div id="fbranks" class="section level3">
+<h3><a href="http://cran.r-project.org/web/packages/fbRanks/index.html">fbRanks</a></h3>
+<p>Fitting huge poission regression models using glmnet.</p>
+</div>
+<div id="lambda" class="section level3">
+<h3><a href="https://conserver.iugo-cafe.org/user/e2holmes/LAMBDA">LAMBDA</a></h3>
+<p>A matlab package for fitting MAR(1) models.</p>
+</div>
+<div id="mar1" class="section level3">
+<h3><a href="https://CRAN.R-project.org/package=MAR1">MAR1</a></h3>
+<p>An R package for fitting MAR(1) models.</p>
+</div>
+<div id="fishbox-and-ecologybox" class="section level3">
+<h3><a href="http://fishbox.iugo-cafe.org/">FishBox</a> and <a href="http://conserver.iugo-cafe.org/">EcologyBox</a></h3>
+<p>Code repositories with a variety of older projects. We have switched over to GitHub since 2012 or so. We developed the code base that runs the repository itself as part of the Iugo-Cafe project in the 2000s.</p>
+</div>
+<div id="iugo-cafe" class="section level3">
+<h3><a href="http://iugo-cafe.org/">iugo-cafe</a></h3>
+<p>Iugo-Cafe was an early project on development of fluid content managers for science purposes.</p>
+<!-- List all repositories
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+-->
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

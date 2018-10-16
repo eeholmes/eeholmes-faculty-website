@@ -1,0 +1,42 @@
+name: eeholmes-faculty-website
+output_dir: 'docs'
+navbar:
+  title: EEHolmes
+  left:
+  - text: CV
+    href: files/Holmes_CV.pdf
+  - text: Publications
+    href: publications.html
+  - text: Teaching
+    href: teaching.html
+  - text: Talks
+    href: talks.html
+  - text: Code
+    href: code.html
+  - text: Notebook
+    href: https://eeholmes.github.io/open-notebook/
+  - text: Colleagues
+    href: colleagues.html
+  right:
+  - icon: fa-home
+    href: https://nwfsc-timeseries.github.io/
+  - icon: fa-wrench
+    href: https://github.com/RVerse-Tutorials
+  - icon: fa-line-chart
+    href: https://github.com/fish-forecast
+  - icon: fa-github
+    href: https://github.com/eeholmes
+    
+output:
+  html_document:
+    theme: readable
+    toc_depth: 2
+    toc_float:
+      collapsed: no
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+    include:
+      in_header: header.html
+

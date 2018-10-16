@@ -1,0 +1,14 @@
+---
+title: "Colleagues"
+---
+
+Name | GitHub | Projects
+------------- | :------------:| -------------
+<a href="https://eric-ward.github.io/">Eric Ward</a> | <a href="https://github.com/eric-ward"><i class="fa fa-github"></i></a> |
+<a href="https://faculty.washington.edu/scheuerl/">Mark Scheuerell</a> | <a href="https://github.com/mdscheuerell"><i class="fa fa-github"></i></a> | <a href="https://mdscheuerell.github.io/ASSESSOR/">ASSESSOR</a>   <a href="https://mdscheuerell.github.io/muti/">muti</a>
+<a href="http://eriqande.netlify.com/">Eric Anderson</a> | <a href="https://github.com/eriqande"><i class="fa fa-github"></i></a> | <a href="http://eriqande.github.io/rep-res-web/">Reproducible Research 2014</a>   <a href="https://eriqande.github.io/rep-res-eeb-2017/">Reproducible Research 2017</a>
+<a href="https://sites.google.com/site/thorsonresearch/">Jim Thorson</a> | <a href="https://github.com/James-Thorson"><i class="fa fa-github"></i></a> | <a href="https://james-thorson.github.io/">FishStats</a>
+<a href="http://scrippsscholars.ucsd.edu/bsemmens/biocv">Brice Semmens</a> | | <a href="http://www.semmenslab.org/">Lab website</a>
+<a href="https://brianstock.github.io/">Brian Stock</a> | <a href="https://github.com/brianstock"><i class="fa fa-github"></i></a> | <a href="https://brianstock.github.io/mixsiar/">MixSIAR</a>
+<a href="https://www.afsc.noaa.gov/nmml/personnel/nmmlprofile.php?name=Devin.Johnson">Devin Johnson</a> | <a href="https://github.com/dsjohnson"><i class="fa fa-github"></i></a> | <a href="https://github.com/NMML/agTrend">agTrend</a>
+<a href="https://www.afsc.noaa.gov/nmml/personnel/nmmlprofile.php?name=Josh.London">Josh London</a> | <a href="https://github.com/jmlondon"><i class="fa fa-github"></i></a> | <a href="https://github.com/jmlondon/crawl">crawl</a>
