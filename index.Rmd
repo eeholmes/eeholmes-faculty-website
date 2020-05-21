@@ -41,7 +41,7 @@ School of Aquatic and Fishery Sciences<br />
 **Contact and Websites**
 <ul class="ul-edu fa-ul">
 <li>
-<i class="fa fa-envelope"></i> eli.holmes@noaa.gov
+<i class="fa fa-envelope"></i> eeholmes@uw.edu
 </li>
 
 <li>
